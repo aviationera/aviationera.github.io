@@ -10,6 +10,10 @@ p {
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
 
+.imgContainer{
+    float:left;
+}
+
 /*=========================
         2)header Start
 ===========================*/
@@ -25,12 +29,12 @@ p {
         header close
 ===========================*/
 
-
 /*=========================
         9) footer Start
 ===========================*/
 
-#footer{background: #2D312F;text-align: center; padding-top: 75px; padding-bottom: 50px;}
+#footer { background: #2D312F; text-align: center;  position: fixed; bottom: 0; width: 100%; }
+
 #footer .block{}
 .footer-contant{}
 .footer-contant h3{color:#8C9494; font-size: 24px; font-family: 'Raleway', sans-serif; font-weight: 400;margin: 0px; padding-bottom: 30px;}
