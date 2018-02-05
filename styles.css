@@ -1,0 +1,53 @@
+* {
+  margin:0px;
+  padding:0px;
+}
+
+p {
+  display: block;
+  width: 400px;
+  margin: 50px auto;
+  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+}
+
+/*=========================
+        2)header Start
+===========================*/
+
+.nav-link ul { list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #2D312F; }
+.nav-link ul li { float: left; border-right:1px solid #bbb; }
+.nav-link ul li:last-child { border-right: none; }
+.nav-link ul li a { display: block; color: white; text-align: center; padding: 14px 16px; text-decoration: none; }
+.nav-link ul li a:hover:not(.active) { background-color: #111; }
+.active { background-color: #4CAF50; }
+
+/*=========================
+        header close
+===========================*/
+
+
+/*=========================
+        9) footer Start
+===========================*/
+
+#footer{background: #2D312F;text-align: center; padding-top: 75px; padding-bottom: 50px;}
+#footer .block{}
+.footer-contant{}
+.footer-contant h3{color:#8C9494; font-size: 24px; font-family: 'Raleway', sans-serif; font-weight: 400;margin: 0px; padding-bottom: 30px;}
+.social-icon{}
+.social-icon a{margin-right: 10px;}
+.social-icon a i{background: #5d6461;
+border-radius: 500px;
+color: #2d312f;
+font-size: 20px;
+height: 42px;
+padding-top: 11px;
+width: 42px;}
+.support-link{padding-top: 70px;}
+.support-link ul{margin:0px; padding: 0px; list-style: none;}
+.support-link ul li{display: inline-block; padding: 0px 10px}
+.support-link ul li a{display: inline-block; color: #8C9494; font-size: 14px}
+
+/*=========================
+         footer CLOSE
+===========================*/

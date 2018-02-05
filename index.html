@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>World of Dreamer</title>
+    <link rel="icon" type="image/png" href="http://example.com/myicon.png">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script>
+        function resetAll(){
+            document.getElementById('home').className = '';
+            document.getElementById('news').className = '';
+            document.getElementById('contact').className = '';
+            document.getElementById('about').className = '';
+        }
+
+        $(document).ready(function(){
+
+            /*$("p").click(function(){
+            $(this).hide();
+            $("#content").load("http://www.google.com");
+            $("#content").html("<b>Hello world!</b>");
+            $(this).css("background-color", "lightgray");
+            });*/
+
+            $("#home").click(function(){
+                resetAll();
+                document.getElementById('home').className = 'active';
+                $("#ChangeThis").html("<b>Site is under construction</b>");
+            });
+
+            $("#news").click(function(){
+                resetAll();
+                document.getElementById('news').className = 'active';
+                $("#ChangeThis").html("<b>Site is under construction : news </b>");
+            });
+
+            $("#contact").click(function(){
+                resetAll();
+                document.getElementById('contact').className = 'active';
+                $("#ChangeThis").html("<b>Site is under construction : contact </b>");
+            });
+
+            $("#about").click(function(){
+                resetAll();
+                document.getElementById('about').className = 'active';
+                $("#ChangeThis").html("<b>Site is under construction : about </b>");
+            });
+        });
+    </script>
+</head>
+<body>
+
+<section id="header">
+    <div class="nav-link">
+        <ul>
+            <li><a id="home" class="active">Home</a></li>
+            <li><a id="news">News</a></li>
+            <li><a id="contact">Contact</a></li>
+            <li style="float:right"><a id="about">About</a></li>
+        </ul>
+    </div>
+</section>
+
+<p id="ChangeThis">Site is under construction</p>
+
+<section id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <div class="footer-contant">
+                        <h3>Say Hi, Get In Touch</h3>
+                        <div class="social-icon">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-tumblr"></i></a>
+                            <a href="#"><i class="fa fa-google"></i></a>
+                            <a href="#"><i class="fa fa-flickr"></i></a>
+                            <a href="#"><i class="fa fa-youtube"></i></a>
+                        </div>
+                        <div class="support-link">
+                            <ul>
+                                <li><a href="mailto:info@openmerchantaccount.com">Contact</a></li>
+                                <li><a href="http://www.twitter.com/twitter">Twitter</a></li>
+                                <li><a href="mailto:kussourabh2008@gmail.com">Support</a></li>
+                                <li><a href="http://blog.dotnetframework.org">Developers</a></li>
+                                <li><a href="privacypolicy.html">Privacy</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+
+</html>
