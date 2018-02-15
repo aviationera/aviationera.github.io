@@ -19,7 +19,7 @@ body {
   height:auto;
   position: relative; 
   overflow: hidden; 
-  width: 670px;
+  width: 75%;
 }
 
 .topNaviagationLink
@@ -60,7 +60,7 @@ border-bottom:none;
 #mainPicture
 {
 clear:both;
-width:670px;
+width: 75%;
 height:345px;
 background-color:#424242;
 }
@@ -99,7 +99,7 @@ font-family:"Adobe Garamond Pro Bold", Georgia, "Times New Roman", Times, serif;
 .contentBox
 {
 margin-top:10px;
-width:670px;
+width: 75%;
 height:auto;
 background-color:#424242;
 }
