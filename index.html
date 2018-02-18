@@ -17,6 +17,11 @@
         $(document).ready(function() {
 		$("#ChangeThis").load("home.html");
 		
+		$('#gform').on('submit', function(e) {
+  			$('#gform *').fadeOut(2000);
+  			$('#gform').prepend('Your submission has been processed...');
+  		});
+		
             	$("#home").click(function(){
                 	resetAll();
                 	document.getElementById('home').className = 'active';
